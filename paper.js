@@ -3,7 +3,7 @@ class Paper {
       var options = {
           'restitution':0.8,
           'friction':0.3,
-          'density':0.3,
+          'density':1,
       }
       this.body = Bodies.circle(x, y, 30, options);
       this.width = 30;
